@@ -65,7 +65,7 @@ var_dump($eternals);
     ?>
         <h2><?= "Il titolo del film è: $single_movie->title" ?></h2>
         <p><?= "E' uscito il: $single_movie->year" ?></p>
-        <p><?= "Parte della trama: $single_movie->description" ?></p>
+        <p><?= "Parte della trama:" . $single_movie->getAbstract() ?></p>
         <address><?= "Ideato e diretto da: $single_movie->author" ?></address>
 
     <?php endforeach; ?>
