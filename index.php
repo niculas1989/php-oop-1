@@ -1,5 +1,6 @@
 <?php
 //| Scriveremo del codice qui
+var_dump('giusto per capire se è connesso');
 ?>
 
 <!DOCTYPE html>
