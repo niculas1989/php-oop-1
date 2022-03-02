@@ -1,6 +1,14 @@
 <?php
-//| Scriveremo del codice qui
-var_dump('giusto per capire se è connesso');
+//| Creare una classe PHP
+
+class Movies
+{
+    public $id;
+    public $title;
+    public $year;
+    public $description;
+}
+
 ?>
 
 <!DOCTYPE html>
