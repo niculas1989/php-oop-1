@@ -7,6 +7,14 @@ class Movies
     public $title;
     public $year;
     public $description;
+
+    public function __construct($id, $title, $year, $description)
+    {
+        $this->id = $id;
+        $this->title = $title;
+        $this->year = $year;
+        $this->description = $description;
+    }
 }
 
 ?>
