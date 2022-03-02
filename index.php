@@ -15,6 +15,11 @@ class Movie
         $this->year = $year;
         $this->description = $description;
     }
+
+    public function getAbstract()
+    {
+        return substr($this->description, 0, 40) . '...';
+    }
 }
 
 //# Primo film
